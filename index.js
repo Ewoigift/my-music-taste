@@ -11,8 +11,8 @@ window.addEventListener("scroll", function() {
 
     }) // or window.addEventListener("scroll"....
 
-
-var swiper = new Swiper(".mySwiper", {
+let swiperVerse = new Swiper(".verse", {
+    grabCursor: true,
     slidesPerView: 1,
     spaceBetween: 30,
     loop: true,
